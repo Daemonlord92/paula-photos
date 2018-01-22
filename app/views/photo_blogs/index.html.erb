@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Paula Photo Collections</h1>
+
+<table class="side-bar">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Main image</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @photo_blogs.each do |photo_blog| %>
+      <tr>
+        <td><%= photo_blog.title %></td>
+        <td><%= photo_blog.description %></td>
+        <td><%= photo_blog.main_image %></td>
+        <td><%= link_to 'Show', photo_blog %></td>
+        <td><%= link_to 'Edit', edit_photo_blog_path(photo_blog) %></td>
+        <td><%= link_to 'Destroy', photo_blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Photo Blog', new_photo_blog_path %>

@@ -1,0 +1,2 @@
+class PhotoBlog < ApplicationRecord
+end
