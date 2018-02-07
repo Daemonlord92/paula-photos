@@ -3,6 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/ejmcoding/paula-photos/app/assets/stylesheets/application.scss</file>
+            <file>file:/home/ejmcoding/paula-photos/app/assets/stylesheets/photo_blogs.scss</file>
+            <file>file:/home/ejmcoding/paula-photos/app/views/layouts/application.html.erb</file>
+            <file>file:/home/ejmcoding/paula-photos/app/helpers/application_helper.rb</file>
+            <file>file:/home/ejmcoding/paula-photos/app/views/photo_blogs/index.html.erb</file>
+            <file>file:/home/ejmcoding/paula-photos/config/routes.rb</file>
             <file>file:/home/ejmcoding/paula-photos/Gemfile</file>
         </group>
     </open-files>
